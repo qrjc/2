@@ -130,19 +130,20 @@ h3{
         animation: correct 2300ms ease-out 3000ms;
         animation-fill-mode: forwards;
     }
-    @keyframes description {
+      @keyframes description {
         0%{
             opacity: 0;
-            font-size: 0px;
+            font-size: 17px;
+            scale: .9;
+           
             
             
         }
-        99%{
-            font-size: 0px;
-        }
+
         
         100%{
             opacity: 1 ;
+            scale: 1;
             font-size: 17px;
         }
     }
@@ -203,20 +204,21 @@ h3{
     h3{
         font-size: 19px;
     }
-    @keyframes description {
+      @keyframes description {
         0%{
             opacity: 0;
-            font-size: 0px;
-    
-      
+            font-size: 19px;
+            scale: .9;
+           
+            
+            
         }
-        99%{
-            font-size: 0px;
-        }
-    
+
+        
         100%{
-           opacity: 1 ;
-           font-size: 19px;
+            opacity: 1 ;
+            scale: 1;
+            font-size: 19px;
         }
     }
     @keyframes padding-ol {
@@ -249,20 +251,21 @@ h3{
             padding-left:55px
         }
     }
-    @keyframes description {
+       @keyframes description {
         0%{
             opacity: 0;
-            font-size: 0px;
-    
-      
+            font-size: 21px;
+            scale: .9;
+           
+            
+            
         }
-        99%{
-            font-size: 0px;
-        }
-    
+
+        
         100%{
-           opacity: 1 ;
-           font-size: 21px;
+            opacity: 1 ;
+            scale: 1;
+            font-size: 21px;
         }
     }
     @keyframes padding-ol {
@@ -306,17 +309,18 @@ h3{
     @keyframes description {
         0%{
             opacity: 0;
-            font-size: 0px;
-    
-      
+            font-size: 21px;
+            scale: .9;
+           
+            
+            
         }
-        99%{
-            font-size: 0px;
-        }
-    
+
+        
         100%{
-           opacity: 1 ;
-           font-size: 25px;
+            opacity: 1 ;
+            scale: 1;
+            font-size: 21px;
         }
     }
     @keyframes padding-ol {
